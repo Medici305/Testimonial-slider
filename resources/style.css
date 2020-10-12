@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.container {
+    border: 10px solid black;
+    display: grid;
+    grid: 1fr / 50% 50%;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    background-image: url(./images/pattern-curve.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.container .description {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 2px solid black;
+    overflow: visible;
+    padding: 50px 0px;
+    padding-left: 100px;
+    max-height: 70%;
+    align-self: center;
+    background-image: url(./images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.container .description p {
+    font-size: 1.9rem;
+    transform: translateX(100px);
+    border: 2px solid black;
+    max-height: 40%;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.container .description p span strong {
+    font-weight: 700;
+    color: black;
+}
+
+.container .description p span {
+    font-weight: 300;
+    color: hsl(240, 18%, 77%);
+    font-size: 1.25rem;
+}
+
+.container .person {
+    border: 2px solid black;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    background-image: url(./images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-position: -65px 0px;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.container .person img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .person .arrow {
+    border: 5px solid black;
+    align-self: flex-end;
+    justify-self: flex-start;
+    
+}
+
+

@@ -1,0 +1,19 @@
+{
+  "name": "testimonial-slider",
+  "version": "1.0.0",
+  "description": "\u0016\u0016Your challenge is to build out this landing page and get it looking as close to the design as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Medici305/Testimonial-slider.git"
+  },
+  "author": "Medici",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Medici305/Testimonial-slider/issues"
+  },
+  "homepage": "https://github.com/Medici305/Testimonial-slider#readme"
+}
